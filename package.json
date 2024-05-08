@@ -1,0 +1,32 @@
+{
+  "name": "ticketing-system",
+  "version": "1.0.0",
+  "description": "Ticketing system for educational purposes",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=prod && node server.js",
+    "dev": "set NODE_ENV=dev && node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaterli/ticketing-system.git"
+  },
+  "keywords": [
+    "ticketing-system-test"
+  ],
+  "author": "Jimmy Filadelfo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaterli/ticketing-system/issues"
+  },
+  "homepage": "https://github.com/Jaterli/ticketing-system#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0"
+  }
+}
