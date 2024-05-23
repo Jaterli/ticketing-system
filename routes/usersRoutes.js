@@ -1,7 +1,7 @@
 import express from "express";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import User from "../models/User";
+import User from "../models/User.js";
 
 const router = express.Router();
 
@@ -64,7 +64,7 @@ router.post("/login", async (req, res) => {
     }
   );
 
-  res.header("Authorization", token).send(token);
+  res.status(200).header("Authorization", token).json({token: token});
 });
 
 export default router;
