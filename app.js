@@ -1,3 +1,4 @@
+//Todo lo relacionado con express
 import "dotenv/config";
 import mongoose from "mongoose";
 import express from "express";

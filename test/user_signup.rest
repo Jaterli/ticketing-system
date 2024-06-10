@@ -2,7 +2,7 @@ POST http://localhost:4001/api/users/signup HTTP/1.1
 Content-Type: application/json
 
 {
-  "email": "carlos@email.com",
-  "password": "12345678",
-  "name": "Carlos"
+    "email": "jaterli@hotmail.com",
+    "password": "12345678",
+    "name": "Jimmy"
 }
