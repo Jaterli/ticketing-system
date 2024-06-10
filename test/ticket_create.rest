@@ -1,0 +1,8 @@
+POST http://localhost:4001/api/tickets HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjI2YTQ1ZGFkNDliOWZkOGQ0MGUyZTgiLCJyb2xlIjoidXNlciIsImlhdCI6MTcxMzg2MjUwNywiZXhwIjoxNzEzODY2MTA3fQ.N_OhKByN7XlaXFllUOXkTPE87b-2EX1ytPlRGK2G-3M
+
+{
+  "title": "Ticket #14",
+  "description": "This is a new ticket description"
+}
